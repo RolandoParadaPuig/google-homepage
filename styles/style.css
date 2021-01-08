@@ -22,7 +22,8 @@ body{
 
 #title a img{
     height: auto;
-    width: 4.5em;
+    width: 3em;
+    margin: .8em 0 0 .8em;
 }
 
 #bar {
