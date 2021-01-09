@@ -3,6 +3,7 @@ body{
     margin: 0;
 }
 
+/* here starts the header styles */
 #header {
     display: flex;
     flex-direction: column;
@@ -13,17 +14,44 @@ body{
     margin: 0;
 }
 
+#header_content {
+    display: flex;
+}
+#search_form{
+    
+}
+#form{
+    display: flex;
+    height: 2em;
+    border-width: thin;
+    border-color: lightgray;
+    border-radius: 20px;
+    border-width: .1em;
+    border-style: solid;
+    border-color: lightgray;
+}
+
+#form input{
+    border-style: none;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+input:focus {
+    outline: none;
+    padding: 0;
+}
+
 #title {
     margin: 0;
     padding: 0;
     height: auto;
-    width: 1em;
+    width: auto;
 }
 
 #title a img{
     height: auto;
     width: 3em;
-    margin: .8em 0 0 .8em;
 }
 
 #bar {
@@ -31,3 +59,5 @@ body{
     height: .08em;
     background-color: #ddd;
 }
+
+/* here starts the header styles */
