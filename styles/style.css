@@ -86,7 +86,21 @@ input:focus {
 
 #user{
     flex-grow: 2;
-    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#user_apps a img{
+    display: block;
+    width: 2em;
+    padding: .5em;
+}
+
+#user_account a img{
+    display: block;
+    width: 2.25em;
+    padding: 0 1.5em 0 0;
 }
 
 #bar {
