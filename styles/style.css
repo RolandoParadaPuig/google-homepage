@@ -16,20 +16,26 @@ body{
 
 #header_content {
     display: flex;
+    align-items: center;
+    height: 100%;
+
+}
+#search{
+    flex-grow: 3;
 }
 #search_form{
-    
+    width: auto;
 }
 #form{
     display: flex;
     height: 3em;
-    width: auto;
     border-width: thin;
     border-color: lightgray;
     border-radius: 1.5em;
     border-width: .1em;
     border-style: solid;
     border-color: lightgray;
+    
 }
 
 #form input{
@@ -37,6 +43,7 @@ body{
     background-color: #ffffff;
     border-radius: 100%;
     padding: 1.25em;
+    flex-grow: 4;
 }
 
 #form button{
@@ -65,14 +72,21 @@ input:focus {
 
 #title {
     margin: 0;
-    padding: .85em;
-    height: auto;
-    width: auto;
+    padding: 0;
+    flex-grow: 1;
 }
 
 #title a img{
-    height: auto;
-    width: 3em;
+    height: .85em;
+    width: auto;
+    display: block;
+    padding: 0 1em 0 1em;
+    margin: 0;
+}
+
+#user{
+    flex-grow: 2;
+    background: #000;
 }
 
 #bar {
@@ -80,5 +94,7 @@ input:focus {
     height: .08em;
     background-color: #ddd;
 }
+
+
 
 /* here ends the header styles */
