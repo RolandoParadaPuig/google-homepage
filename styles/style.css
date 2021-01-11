@@ -101,6 +101,7 @@ input:focus {
     display: block;
     width: 2.25em;
     padding: 0 1.5em 0 0;
+    background-color: #000;
 }
 
 #bar {
