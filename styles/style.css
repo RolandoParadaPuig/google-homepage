@@ -22,10 +22,11 @@ body{
 }
 #form{
     display: flex;
-    height: 2em;
+    height: 3em;
+    width: auto;
     border-width: thin;
     border-color: lightgray;
-    border-radius: 20px;
+    border-radius: 1.5em;
     border-width: .1em;
     border-style: solid;
     border-color: lightgray;
@@ -35,6 +36,26 @@ body{
     border-style: none;
     background-color: #ffffff;
     border-radius: 100%;
+    padding: 1.25em;
+}
+
+#form button{
+    background:none;
+    outline: none;
+    padding: .5em;
+    margin: 0;
+    border-style: none;
+    border-radius: 100%;
+}
+
+#form button img{
+    height: 1.5em;
+    width: auto;
+    padding: .5em;
+}
+
+#form button img:hover{
+    cursor: pointer;
 }
 
 input:focus {
@@ -44,7 +65,7 @@ input:focus {
 
 #title {
     margin: 0;
-    padding: 0;
+    padding: .85em;
     height: auto;
     width: auto;
 }
@@ -60,4 +81,4 @@ input:focus {
     background-color: #ddd;
 }
 
-/* here starts the header styles */
+/* here ends the header styles */
