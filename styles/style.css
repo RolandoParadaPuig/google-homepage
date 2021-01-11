@@ -12,12 +12,11 @@ a {
 #header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   width: 100vw;
   height: 8em;
   padding: 0;
   margin: 0;
-  border-bottom: solid 0.15em lightgray;
+  border-bottom: solid 0.1em lightgray;
 }
 
 #header_content {
@@ -40,7 +39,8 @@ a {
 
 #form {
   display: flex;
-  height: 3em;
+  height: 2.5em;
+  margin-top: 1.5em;
   border-width: thin;
   border-color: lightgray;
   border-radius: 1.5em;
@@ -81,35 +81,34 @@ input:focus {
 }
 
 #title {
-  margin: 0;
+  margin: 0.75em 0 0 1em;
   padding: 0;
   flex-grow: 1;
+  align-self: start;
 }
 
 #title a img {
   height: 0.85em;
-  width: auto;
-  display: block;
-  padding: 0 1em 0 1em;
-  margin: 0;
 }
 
 #user {
-  flex-grow: 2;
+  flex-grow: 8;
   display: flex;
   align-items: center;
+  align-self: start;
   justify-content: flex-end;
+  margin-top: 1em;
 }
 
 #user_apps a img {
   display: block;
-  width: 2em;
-  padding: 0.5em;
+  width: 1.75em;
+  padding: 1em;
 }
 
 #user_account a img {
   display: block;
-  width: 2.25em;
+  width: 2em;
   padding: 0 1.5em 0 0;
 }
 
