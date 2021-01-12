@@ -147,7 +147,6 @@ input:focus {
 #results {
   grid-column-start: 2;
   grid-column-end: 3;
-  background-color: #000;
 }
 
 .all_pages {
