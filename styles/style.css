@@ -138,3 +138,47 @@ input:focus {
   margin: 0;
 }
 /* here ends the header styles */
+
+/* here starts the main styles */
+
+#main {
+  display: grid;
+  grid-template-columns: 12vw 40vw 48vw;
+}
+#results {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.all_pages {
+  font-size: 1em;
+  color: #aaa;
+  padding: 0;
+  margin: 0.75em 0 1em 0;
+}
+
+.result_page {
+  margin: 1em 0 2em 0;
+}
+.page {
+  color: #000;
+}
+.translate {
+  color: #161896;
+}
+.translate:hover {
+  text-decoration: underline;
+}
+.result_page h2 {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0;
+}
+.result_page h2 a {
+  color: #161896;
+}
+.page_text {
+  color: rgb(59, 59, 59);
+  padding: 0;
+  margin: 0.25em 0 0 0;
+}
