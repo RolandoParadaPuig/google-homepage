@@ -92,7 +92,7 @@ input:focus {
 }
 
 #user {
-  flex-grow: 8;
+  flex-grow: 10;
   display: flex;
   align-items: center;
   align-self: start;
