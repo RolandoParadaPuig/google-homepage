@@ -142,7 +142,7 @@ input:focus {
 
 #main {
   display: grid;
-  grid-template-columns: 12vw 40vw 48vw;
+  grid-template-columns: 12% 40% 48%;
 }
 #results {
   grid-column-start: 2;
