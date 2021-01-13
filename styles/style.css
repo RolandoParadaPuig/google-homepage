@@ -212,3 +212,29 @@ input:focus {
   font-weight: normal;
   color: rgb(24, 24, 24);
 }
+
+.related_search {
+  display: flex;
+}
+.col_a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+.col_b {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
+}
+.go_to {
+  padding: 0.25em 0 0.25em 0;
+}
+.go_to a {
+  color: #161896;
+  padding-right: 1.5em;
+}
