@@ -310,8 +310,21 @@ input:focus {
   flex-grow: 2;
   border-top: solid thin rgb(179, 179, 179);
   border-bottom: solid thin rgb(179, 179, 179);
+  display: flex;
+  padding-left: 12%;
+  align-items: center;
+}
+.location span {
+  padding-right: 0.75em;
+  color: gray;
 }
 
 .page_info {
   flex-grow: 3;
+  display: flex;
+  padding-left: 12%;
+  align-items: center;
+}
+.page_info a {
+  padding-right: 0.75em;
 }
