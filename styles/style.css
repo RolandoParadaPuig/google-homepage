@@ -1,6 +1,7 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: arial, sans-serif;
 }
 
 a {
@@ -142,7 +143,7 @@ input:focus {
 
 #main {
   display: grid;
-  grid-template-columns: 12% 40% 48%;
+  grid-template-columns: 12% 45% 45%;
 }
 #results {
   grid-column-start: 2;
@@ -158,6 +159,7 @@ input:focus {
 
 .result_page {
   margin: 1em 0 2em 0;
+  width: 90%;
 }
 .page {
   color: #000;
@@ -169,8 +171,8 @@ input:focus {
   text-decoration: underline;
 }
 .result_page h2 {
-  font-size: 1.5em;
-  padding: 0;
+  font-size: 1.25em;
+  padding: 0.25em 0 0.25em 0;
   margin: 0;
 }
 .result_page h2 a {
@@ -180,4 +182,33 @@ input:focus {
   color: rgb(59, 59, 59);
   padding: 0;
   margin: 0.25em 0 0 0;
+}
+
+.related_question {
+  border: solid thin lightgray;
+  border-radius: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 2em;
+}
+
+.related_question h2 {
+  padding: 0;
+  margin: 0.45em;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: rgb(24, 24, 24);
+}
+
+.related_question a {
+  border-top: solid thin lightgray;
+  color: rgb(24, 24, 24);
+  display: block;
+  padding: 0.75em;
+  margin: 0;
+}
+
+.related h2 {
+  font-size: 1.25em;
+  font-weight: normal;
+  color: rgb(24, 24, 24);
 }
