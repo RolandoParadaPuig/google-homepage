@@ -238,3 +238,61 @@ input:focus {
   color: #161896;
   padding-right: 1.5em;
 }
+.tr {
+  display: flex;
+}
+.table {
+  width: 100%;
+  padding: 2em 0 2em 0;
+  display: flex;
+  justify-content: center;
+}
+.g img {
+  width: 28px;
+}
+.o {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #161896;
+}
+.o:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.o img {
+  width: 20px;
+  height: 20px;
+  margin-top: 0.6em;
+  margin-bottom: 0.75em;
+  display: block;
+}
+.or {
+  color: #000;
+}
+.or:hover {
+  cursor: default;
+  text-decoration: none;
+}
+.gle {
+  color: #161896;
+  padding: 0;
+  margin: 0;
+}
+.gle:hover {
+  cursor: pointer;
+}
+.next {
+  display: flex;
+  font-display: row;
+  align-items: center;
+}
+.n_img {
+  padding-left: 0.75em;
+}
+.next_t {
+  padding-left: 4em;
+}
+.gle:hover .next_t {
+  text-decoration: underline;
+}
